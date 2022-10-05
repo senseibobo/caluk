@@ -1,0 +1,17 @@
+.masina {
+  width: 100px;
+}
+.masina button {
+  width: 30px;
+  height: 30px;
+}
+.masina input {
+  width: 100px;
+}
+#connor {
+  visibility: hidden;
+  display: none;
+}
+#yt {
+  visibility: hidden;
+}
