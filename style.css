@@ -1,17 +1,38 @@
+.fullscreen {
+  width:100%;
+  height:100%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
 .masina {
-  width: 100px;
+  width: 30%;
+  height: max-content;
 }
 .masina button {
-  width: 30px;
-  height: 30px;
+  width: 20%;
+  height: 0;
+  margin:2%;
+  padding-top: 10%;
+  padding-bottom:10%;
 }
 .masina input {
-  width: 100px;
+  width: 100%;
 }
 #connor {
-  visibility: hidden;
-  display: none;
+  width:40px;
+  height:40px;
+  /*visibility: hidden;*/
+ /*display: none;*/
 }
 #yt {
   visibility: hidden;
+  display: none;
+}
+#maps {
+  visibility: hidden;
+  display: none;
 }
