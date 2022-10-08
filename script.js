@@ -5,6 +5,8 @@ function load() {
     child.addEventListener("onclick", kliknut);
   }
   reveal("zgrada");
+  document.getElementById("stvari").style.display = "block";
+  
 }
 function kliknut(n) {
   let p = document.getElementById("pisanje");

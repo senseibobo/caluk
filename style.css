@@ -33,6 +33,9 @@ a {
 .masina input {
   width: 100%;
 }
-#connor img {
-  width:500px;
+#zgrada img {
+  width:90%;
+}
+#stvari {
+  display: none;
 }
