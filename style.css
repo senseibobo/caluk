@@ -1,6 +1,10 @@
 body {
   background-color: black;
   color: white;
+  font-size: 2rem;
+}
+a {
+  color: aqua;
 }
 .fullscreen {
   width:100%;
