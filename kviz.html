@@ -1,0 +1,35 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="kvizstyle.css" />
+    <script src="kvizscript.js"></script>
+  </head>
+  <body onload="loadQuestion(0);">
+    <div class="fullscreen">
+      <h1 id="pitanje">pitanje</h1>
+      <table id="choices" class="choices">
+        <tr>
+          <td>
+            <button onclick="pressed(0);" class="odgovor">prvi odgovor</button>
+          </td>
+          <td>
+            <button onclick="pressed(1);" class="odgovor">drugi odgovor</button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button onclick="pressed(2);" class="odgovor">treci odgovor</button>
+          </td>
+          <td>
+            <button onclick="pressed(3);" class="odgovor">
+              cetvrti odgovor
+            </button>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

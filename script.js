@@ -4,6 +4,7 @@ function load() {
     console.log("added");
     child.addEventListener("onclick", kliknut);
   }
+  reveal("zgrada");
 }
 function kliknut(n) {
   let p = document.getElementById("pisanje");
@@ -19,11 +20,14 @@ function kliknut(n) {
 function check(val) {
   let p = document.getElementById("poruka");
   if (val == "1993") {
-    reveal("connor");
-  } else if (val == "129857") {
     reveal("yt");
   } else if (val == "54098") {
-    reveal("maps");
+    reveal("kviz");
+  }else if(val == "84259") {
+    reveal("maps")
+  }
+  else if (val == "31987") {
+    reveal("checkkutija")
   }
 }
 

@@ -1,3 +1,7 @@
+body {
+  background-color: black;
+  color: white;
+}
 .fullscreen {
   width:100%;
   height:100%;
@@ -13,26 +17,18 @@
   height: max-content;
 }
 .masina button {
-  width: 20%;
+  width: 25%;
   height: 0;
-  margin:2%;
-  padding-top: 10%;
-  padding-bottom:10%;
+  padding-top: 5.5%;
+  padding-bottom:19.5%;
+  border-radius: 30px;
+  font-weight:1000;
+  font-size: 1rem;
+  text-align: center;
 }
 .masina input {
   width: 100%;
 }
-#connor {
-  width:40px;
-  height:40px;
-  /*visibility: hidden;*/
- /*display: none;*/
-}
-#yt {
-  visibility: hidden;
-  display: none;
-}
-#maps {
-  visibility: hidden;
-  display: none;
+#connor img {
+  width:500px;
 }
